@@ -6,14 +6,14 @@ function validar() {
     matricula = document.getElementById("matricula").value;
     direccion = document.getElementById("direccion").value;
     direccion_numero = document.getElementById ("direccion_numero").value;
+	telefono = document.getElementById("telefono").value;
 	correo = document.getElementById("correo").value;
 	usuario = document.getElementById("usuario").value;
 	clave = document.getElementById("clave").value;
-	telefono = document.getElementById("telefono").value;
 
 	expresion = /\w+@\w+\.+[a-z]/;
 
-	if (nombre === "" || apellidos === ""  || correo === "" || usuario === "" || clave === "" || telefono === ""){
+	if (nombre === "" || apellidos === ""  || especialidad === "" || matricula === "" || direccion === "" || direccion_numero === "" || telefono === "" || correo === "" || usuario === "" || clave === "" ){
 		alert("Todos los campos son obligatorios");
 		return false;
 	}
