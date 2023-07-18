@@ -25,6 +25,14 @@ function validar() {
 		alert("Los apellidos son muy largos");
 		return false;
 	}
+	else if (especialidad.length>80){
+		alert("La especialidad es muy larga);
+		return false;
+	}
+	else if (matricula.length>80){
+		alert("La matricula es muy larga");
+		return false;
+	}
 	else if (correo.length>100){
 		alert("El correo es muy largo");
 		return false;
